@@ -11,7 +11,11 @@ dependencies:
   flutter:
     sdk: flutter
   image_editor_platform_interface: ^1.1.0
-  image_editor_common: ^1.1.1
+  image_editor_common:
+    git:
+      url: https://github.com/Atsumi3/flutter_image_editor.git
+      ref: patch/support-gradle-8
+      path: image_editor_common
   image_editor_ohos: ^0.0.7
   # image_editor_common:
   #   path: ../image_editor_common
